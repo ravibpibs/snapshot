@@ -9,7 +9,7 @@ const Container = ({ searchTerm }) => {
 	const dispatch = useDispatch();
 	useEffect(() => {
 		dispatch(getImages(searchTerm));
-	}, [searchTerm]);
+	}, [searchTerm,dispatch]);
 
 	if (error) {
 		return <Error error={error} />;
