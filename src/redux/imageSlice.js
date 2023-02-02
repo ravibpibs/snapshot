@@ -1,5 +1,5 @@
 import { createAsyncThunk, createSlice } from "@reduxjs/toolkit";
-import {ACCESS_KEY} from '../key'
+import {ACCESS_KEY} from '../secret'
 
 const initialState = {
 	loading: false,
